@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .home{
+            height: 800px;
+            width: 800px;
+        }
+        #homeImage{
+            width: 100%;
+            /* height: auto;
+            max-width: 100%;
+            max-height: 100%; */
+            /* background-color: #ff0; */
+            border: 1px solid green;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+        <div id="homeImage"></div>                    
+    </div>
+    
+</body>
+<script>
+    var images = ["bg-one.jpg", "bg-two.jpg", "bg-three.jpg"];
+
+    $(function(){
+        let i = 0;
+        $("#homeImage").css("background-image", "url(images/" + images[i] + ")");
+            setInterval(function () {
+                i++;
+                if (i == images.length) {
+                    i = 0;
+                }
+                $("#homeImage").fadeOut("slow", function () {
+                    $(this).css("background-image", "url(images/" + images[i] + ")");
+                    $(this).fadeIn("slow");
+                });
+            }, 5000);
+    });
+</script>
+</html>

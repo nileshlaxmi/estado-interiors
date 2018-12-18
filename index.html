@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Living Resolutions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-header.css">
+    <link rel="stylesheet" href="css/style-footer.css">
+    <!-- Image Popup CSS file -->
+    <link rel="stylesheet" href="css/vendor/tobi.min.css">
+
+    <!--Favicon Link-->
+    <link rel="shortcut icon" type="image/png" href="images/logo/favicon.png">
+
+    <!--Animation CSS Link-->
+    <link rel="stylesheet"   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+
+<body id="home">
+    <div class="wrapper">
+        <header id="home">
+            <nav class="navbar navbar-default navbar-fixed-top" id="nav-bar">
+                <div class="container">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#home"><strong>L</strong>IVING <strong>R</strong>ESOLUTIONS</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home"><strong>H</strong>OME</a></li>
+                            <li><a href="#service"><strong>S</strong>ERVICES</a></li>
+                            <li><a href="projects.html"><strong>P</strong>ROJECTS</a></li>
+                            <li><a href="#about"><strong>A</strong>BOUT</a></li>
+                            <li><a href="contact.html"><strong>C</strong>ONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- <div class="image-div">
+                        <div id="homeImage" class="center-fit"></div>
+                    </div> -->
+                    <img src="images/bg-one.jpg" class="center-fit" id="homepage" alt="Background">
+                    <div class="text-block">
+                        <h1><strong>I</strong>nspiring <strong>Y</strong>our <strong>I</strong>nteriors</h1>
+                        <h3>Your design partner to create your dream space.</h3>
+                        <button id="hire-button" onclick="hireButton()">HIRE US NOW &nbsp;&nbsp;<strong>>></strong></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="describingDesign">
+                <div class="describing-header">
+                    <h3><strong>D</strong>escribing <strong>D</strong>esign</h3>
+                </div>
+                <div class="describingDesign-img">
+                    <div class="describing-img">
+                        <img src="images/bg-three.jpg" alt="describing-design">
+                    </div>
+                    <div class="describing-design"></div>
+                </div>
+                <div id="describingDesign-text">
+                    <div class="describing-div-box row1-box1">
+                        <i class="fa fa-pencil"></i>
+                        <h4>SUBTITLE</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </div>
+                    <div class="describing-div-box row1-box2">
+                        <i class="fa fa-pencil"></i>
+                        <h4>SUBTITLE</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>                
+                    </div>
+                    <div class="describing-div-box row2-box1">
+                        <i class="fa fa-pencil"></i>
+                        <h4>SUBTITLE</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>                
+                    </div>
+                    <div class="describing-div-box row2-box2">
+                        <i class="fa fa-pencil"></i>
+                        <h4>SUBTITLE</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>                
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <div class="heading-class">
+                    <h3><strong>T</strong>ypes of <strong>D</strong>esign</h3>
+                </div>
+                <div class="service-img-box" id="service">
+                    <div class="service-img animated fadeInUpBig faster" id="residential">
+                        <h3><strong>R</strong>ESIDENTIAL <strong>D</strong>ESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor leo a diam sollicitudin tempor id.</p>
+                        <button>READ MORE &nbsp;&nbsp;<strong>>></strong></button>
+                    </div>
+                    <div class="service-img animated fadeInUpBig faster" id="office">
+                        <h3><strong>O</strong>FFICE <strong>D</strong>ESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor leo a diam sollicitudin tempor id.</p>
+                        <button>READ MORE &nbsp;&nbsp;<strong>>></strong></button>
+                    </div>
+                    <div class="service-img animated fadeInUpBig faster " id="commercial">
+                        <h3><strong>C</strong>OMMERCIAL <strong>D</strong>ESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor leo a diam sollicitudin tempor id.</p>
+                        <button>READ MORE &nbsp;&nbsp;<strong>>></strong></button>
+                    </div>
+                </div>
+                <div class="service-common">
+                    <div class="heading-services">
+                        <h3><strong>S</strong>ervices</h3>
+                    </div>
+                    <div class="service-text-box">
+                        <div class="service-text">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="images/bg-three.jpg" alt="Image Card">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/bg-two.jpg" alt="Image Card">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-container">
+                                <h5>10% OFF FURNITURE</h5>
+                                <p>Sed risus pretium quam vulputate in. Urna duis convallis convallis tellus id interdum velit.</p>
+                            </div>                        
+                        </div>
+                        <div class="service-text">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="images/bg-three.jpg" alt="Image Card">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/bg-two.jpg" alt="Image Card">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-container">
+                                <h5>MULTIPLE CONCEPTS</h5>
+                                <p>Sed risus pretium quam vulputate in. Urna duis convallis convallis tellus id interdum velit.</p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="images/bg-three.jpg" alt="Image Card">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/bg-two.jpg" alt="Image Card">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-container">
+                                <h5>3D MODEL OF YOUR SPACE</h5>
+                                <p>Sed risus pretium quam vulputate in. Urna duis convallis convallis tellus id interdum velit.</p>
+                            </div>
+                        </div>
+                        <div class="service-text">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="images/bg-three.jpg" alt="Image Card">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/bg-two.jpg" alt="Image Card">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-container">
+                                    <h5>COLOR PALETTE</h5>
+                                    <p>Sed risus pretium quam vulputate in. Urna duis convallis convallis tellus id interdum velit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>    
+            
+            <div class="projects-common">
+                <div class="heading-projects">
+                    <h3><strong>P</strong>rojects</h3>
+                </div>        
+                <div id="projects" class="gallery">
+                    <div id="one">
+                        <a href="images/gallery-one.jpg" class="lightbox">
+                            <img src="images/gallery-one.jpg" alt="1">
+                        </a>
+                        <!-- <div class="overlay">
+                            <div class="text">Projects</div>
+                        </div> -->
+                    </div>
+                    <div id="two">
+                        <a href="images/gallery-two.jpg" class="lightbox">
+                            <img src="images/gallery-two.jpg" alt="2">
+                        </a>
+                    </div>
+                    <div id="three">
+                        <a href="images/gallery-three.jpg" class="lightbox">
+                            <img src="images/gallery-three.jpg" alt="3">
+                        </a>
+                    </div>
+                    <div id="four">
+                        <a href="images/gallery-two.jpg" class="lightbox">
+                            <img src="images/gallery-two.jpg" alt="4">
+                        </a>
+                    </div>
+                    <div id="five">
+                        <a href="images/gallery-three.jpg" class="lightbox">
+                            <img src="images/gallery-three.jpg" alt="5">
+                        </a>
+                    </div>
+                    <div id="six">
+                        <a href="images/gallery-one.jpg" class="lightbox">
+                            <img src="images/gallery-one.jpg" alt="6">
+                        </a>
+                    </div>               
+                </div>
+            </div>
+            
+            <div id="about">
+                <div id="about-img">
+                    <img src="images/logo-250x250.jpg" alt="Living Resolutions Logo">
+                </div>
+                <div id="about-details">
+                    <h3><strong>T</strong>estimonials</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor leo a diam sollicitudin tempor id. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Sed risus pretium quam vulputate dignissim suspendisse in. Urna duis convallis convallis tellus id interdum velit.</p>
+                </div>
+            </div>
+            <!-- <div id="contact">
+                <h2><strong>C</strong>ONTACT</h2>
+                <div class="contact-form-div animated zoomIn slow">
+                    <div class="form-div">
+                        <form method="POST" action="https://formspree.io/nileshlaxmi4@gmail.com">
+                            <h3><strong>E</strong>mail <strong>U</strong>s</h3>
+                            <input type="text" name="" id="" placeholder=" Name">&nbsp;
+                            <input type="email" name="" id="" placeholder=" Email"><br><br>
+                            <textarea name="" id="" cols="40" rows="6" placeholder=" Comment inside..."></textarea><br><br>
+                            <button>Submit</button>
+                        </form>                        
+                    </div>
+                </div>
+            </div> -->
+        </main>
+        <footer>
+            <div class="footer-div footer-header">
+                <h2><strong>L</strong>iving <strong>R</strong>esolutions</h2>
+            </div>
+            <div class="footer-div" id="footer-contact">
+                <div class="contact-div" id="contact-phone">
+                    <div class="social-icon">
+                        <span><i class="fa fa-phone"></i></span>                     
+                    </div>
+                    <p>+91 828781-0063 / 96435 - 43423</p>
+                </div>
+                <div class="contact-div" id="contact-address">
+                    <div class="social-icon">
+                        <span><i class="fa fa-address-card-o"></i></span>                     
+                    </div>
+                    <p>Delhi, India</p>
+                </div>
+                <div class="contact-div" id="contact-email">
+                    <div class="social-icon">
+                        <span><i class="fa fa-envelope-o"></i></span>                     
+                    </div>
+                    <p>interiorideas.lr@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="social-wrapper">
+                <div class="social-icon">
+                    <span><a href="https://www.facebook.com/Living-Resolutions-1897211223704838/" target="_blank"></a><i class="fa fa-facebook" aria-hidden="true"></i></a></span> 
+                    
+                </div>
+                <div class="social-icon">
+                    <span><a href="https://twitter.com/LivingResolutns" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span> 
+                </div>
+                <div class="social-icon">
+                    <span><a href="https://www.instagram.com/living_resolutions/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span> 
+                </div>
+            </div>
+
+            <div id="copyright-div">
+                <h4><strong>&copy; L</strong>iving <strong>R</strong>esolutions 2018</h4>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+
+<!-- JavaScript Scripts-->
+<script src="js/app.js"></script>
+<script src="js/vendor/tobi.min.js"></script>
+
+</html>
